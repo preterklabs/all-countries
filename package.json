@@ -1,0 +1,27 @@
+{
+  "name": "all-countries",
+  "version": "1.0.0",
+  "description": "An API for country names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preterk/all-countries.git"
+  },
+  "keywords": [
+    "country",
+    "names",
+    "api"
+  ],
+  "author": "Precious Jahlom Agboado <jahlomp@gmail.com> (http://jahlom.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Preterk/all-countries/issues"
+  },
+  "homepage": "https://github.com/Preterk/all-countries#readme",
+  "dependencies": {
+    "object-values": "1.0.0"
+  }
+}

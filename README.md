@@ -1,5 +1,5 @@
 # all-countries
-> An API for getting info on countries
+> An API for getting info about countries
 
 You may install this package with this command:
 

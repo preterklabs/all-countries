@@ -1,14 +1,14 @@
 {
   "name": "all-countries",
-  "version": "1.2.2",
-  "description": "An API for country names",
+  "version": "1.3.2",
+  "description": "An API for getting info about countries",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha tests/index.js  -w "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Preterk/all-countries.git"
+    "url": "git+https://github.com/preterk/all-countries.git"
   },
   "keywords": [
     "country",
@@ -18,9 +18,9 @@
   "author": "Precious Jahlom Agboado <jahlomp@gmail.com> (http://jahlom.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Preterk/all-countries/issues"
+    "url": "https://github.com/preterk/all-countries/issues"
   },
-  "homepage": "https://github.com/Preterk/all-countries#readme",
+  "homepage": "https://github.com/preterk/all-countries#readme",
   "dependencies": {
     "object-keys": "1.0.9",
     "object-values": "1.0.0"

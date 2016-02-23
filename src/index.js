@@ -19,7 +19,7 @@ module.exports = {
         }
     },
     getCurrencies: objectValues(currencies),
-    getCurrencyByCountryCode function (code) {
+    getCurrencyByCountryCode: function (code) {
         if (code && typeof code === 'string') {
             return currencies[code];
         }

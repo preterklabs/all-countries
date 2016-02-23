@@ -18,6 +18,7 @@ There are a number of members available. They are as follows:
 
 #### allCountries.all
 Type: 'Variable'
+
 Returns: `Array`
 
 This returns all countries as an array of strings.
@@ -31,6 +32,7 @@ console.log(allCountries.all);
 
 #### allCountries.getCountryCodes
 Type: 'Function'
+
 Returns: `Array`
 
 This returns all  ISO2 country codes as an array of strings.
@@ -44,7 +46,9 @@ console.log(allCountries.getCountryCodes()); // [ '...']
 
 #### allCountries.getCountryByCode
 Type: 'Function'
+
 Parameter: 'code'
+
 Returns: `String`
 
 This returns country name as a string based on the passed in ISO2 country code.

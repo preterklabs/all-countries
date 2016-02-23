@@ -1,7 +1,7 @@
 # all-countries
 > An API for getting info on countries
 
-You may install this plugin with this command:
+You may install this package with this command:
 
 ```shell
 npm install all-countries --save

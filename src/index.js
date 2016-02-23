@@ -6,7 +6,7 @@ module.exports = {
     all: objectValues(countries),
     getCountryCodes: objectKeys(countries),
     getCountryByCode: function (code) {
-        if (code && typeof(code) === 'string') {
+        if (code && typeof code === 'string') {
             return countries[code];
         }
     }

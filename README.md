@@ -155,5 +155,5 @@ Example:
 ```js
 var allCountries = require('all-countries');
 
-console.log(allCountries.getPhoneCodeByCountryCode('US')); // USD
+console.log(allCountries.getPhoneCodeByCountryCode('US')); // 1
 ```

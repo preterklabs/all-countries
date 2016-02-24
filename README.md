@@ -16,6 +16,7 @@ var allCountries = require('all-countries');
 
 There are a number of members available. They are as follows:
 
+
 #### allCountries.all
 Type: 'Variable'
 
@@ -27,8 +28,9 @@ Example:
 ```js
 var allCountries = require('all-countries');
 
-console.log(allCountries.all);
+console.log(allCountries.all); // [ '...']
 ```
+
 
 #### allCountries.getCountryCodes
 Type: 'Function'
@@ -44,6 +46,7 @@ var allCountries = require('all-countries');
 console.log(allCountries.getCountryCodes()); // [ '...']
 ```
 
+
 #### allCountries.getCountryByCode
 Type: 'Function'
 
@@ -58,4 +61,68 @@ Example:
 var allCountries = require('all-countries');
 
 console.log(allCountries.getCountryByCode('US')); // United States
+```
+
+
+#### allCountries.getCapitals
+Type: 'Variable'
+
+Returns: `Array`
+
+This returns all country capitals as an array of strings.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getCapitals); // [ '...']
+```
+
+
+#### allCountries.getCapitalByCountryCode
+Type: 'Function'
+
+Parameter: 'code'
+
+Returns: `String`
+
+This returns a country capital as a string based on the passed in ISO2 country code.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getCapitalByCountryCode('US')); // Washington
+```
+
+
+#### allCountries.getCurrencies
+Type: 'Variable'
+
+Returns: `Array`
+
+This returns all country currency codes as an array of strings.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getCurrencies); // [ '...']
+```
+
+
+#### allCountries.getCurrencyByCountryCode
+Type: 'Function'
+
+Parameter: 'code'
+
+Returns: `String`
+
+This returns a country currency code as a string based on the passed in ISO2 country code.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getCurrencyByCountryCode('US')); // USD
 ```

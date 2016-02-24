@@ -1,5 +1,5 @@
 var objectKeys = require('object-keys');
-var objectValues = require('object-values');
+var objectValues = require('./utils/object-values');
 var countries = require('./data/countries.json');
 var capitals = require('./data/capital.json');
 var currencies = require('./data/currency.json');

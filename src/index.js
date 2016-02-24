@@ -1,8 +1,8 @@
 var objectKeys = require('object-keys');
 var objectValues = require('object-values');
-var countries = require('./countries.json');
-var capitals = require('./capital.json');
-var currencies = require('./currency.json');
+var countries = require('./data/countries.json');
+var capitals = require('./data/capital.json');
+var currencies = require('./data/currency.json');
 
 module.exports = {
     all: objectValues(countries),

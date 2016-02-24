@@ -126,3 +126,34 @@ var allCountries = require('all-countries');
 
 console.log(allCountries.getCurrencyByCountryCode('US')); // USD
 ```
+
+#### allCountries.getPhoneCodes
+Type: 'Variable'
+
+Returns: `Array`
+
+This returns all phone codes as an array of strings.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getPhoneCodes); // [ '...']
+```
+
+
+#### allCountries.getPhoneCodeByCountryCode
+Type: 'Function'
+
+Parameter: 'code'
+
+Returns: `String`
+
+This returns a country phone code as a string based on the passed in ISO2 country code.
+
+Example:
+```js
+var allCountries = require('all-countries');
+
+console.log(allCountries.getPhoneCodeByCountryCode('US')); // USD
+```

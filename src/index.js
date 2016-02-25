@@ -11,26 +11,9 @@ module.exports = {
             return countries[code.toUpperCase()];
         }
     },
-    getCountryCodes: Object.keys(countries),
-    getCountryCodeByCountryName: function (country) {
-        for (i in countries) {
-            if (country === countries[i]) {
-                return i;
-                break;
-            }
-        }
-    },
     getCountryByCapital: function (capital) {
         for (i in capitals) {
             if (capital === capitals[i]) {
-                return this.getCountryByCode(i);
-                break;
-            }
-        }
-    },
-    getCountryByCuurency: function (cuurency) {
-        for (i in currencies) {
-            if (cuurency === currencies[i]) {
                 return this.getCountryByCode(i);
                 break;
             }
@@ -40,6 +23,15 @@ module.exports = {
         for (i in phones) {
             if (phoneCode === phones[i]) {
                 return this.getCountryByCode(i);
+                break;
+            }
+        }
+    },
+    getCountryCodes: Object.keys(countries),
+    getCountryCodeByCountryName: function (country) {
+        for (i in countries) {
+            if (country === countries[i]) {
+                return i;
                 break;
             }
         }

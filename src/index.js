@@ -1,4 +1,3 @@
-var objectKeys = require('object-keys');
 var objectValues = require('./utils/object-values');
 var countries = require('./data/countries.json');
 var capitals = require('./data/capital.json');
@@ -7,7 +6,7 @@ var phone = require('./data/phone.json');
 
 module.exports = {
     all: objectValues(countries),
-    getCountryCodes: objectKeys(countries),
+    getCountryCodes: Object.keys(countries),
     getCountryByCode: function (code) {
         if (code && typeof code === 'string') {
             return countries[code.toUpperCase()];

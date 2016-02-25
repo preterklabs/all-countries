@@ -6,12 +6,21 @@ var phone = require('./data/phone.json');
 
 module.exports = {
     all: objectValues(countries),
-    getCountryCodes: Object.keys(countries),
     getCountryByCode: function (code) {
         if (code && typeof code === 'string') {
             return countries[code.toUpperCase()];
         }
     },
+    getCountryCodes: Object.keys(countries),
+    getCountryCodeByCountryName: function (country) {
+        for (i in countries) {
+            if (country === countries[i]) {
+                return i;
+                break;
+            }
+        }
+    },
+
     // TODO
     // getCountryByCapital: function (capital) {
     //     // Object.keys(capitals)[0]

@@ -10,7 +10,7 @@ module.exports = {
     getCountryCodes: objectKeys(countries),
     getCountryByCode: function (code) {
         if (code && typeof code === 'string') {
-            return countries[code];
+            return countries[code.toUpperCase()];
         }
     },
     // TODO
@@ -29,21 +29,21 @@ module.exports = {
     // TODO Add the ability to accept country name too
     getCapitalByCountryCode: function (code) {
         if (code && typeof code === 'string') {
-            return capitals[code];
+            return capitals[code.toUpperCase()];
         }
     },
     getCurrencies: objectValues(currencies),
     // TODO Add the ability to accept country name too
     getCurrencyByCountryCode: function (code) {
         if (code && typeof code === 'string') {
-            return currencies[code];
+            return currencies[code.toUpperCase()];
         }
     },
     getPhoneCodes: objectValues(phone),
     // TODO Add the ability to accept country name too
     getPhoneCodeByCountryCode: function (code) {
         if (code && typeof code === 'string') {
-            return phone[code];
+            return phone[code.toUpperCase()];
         }
     }
 };

@@ -1,6 +1,6 @@
 {
   "name": "all-countries",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An API for getting info about countries",
   "main": "src/index.js",
   "scripts": {

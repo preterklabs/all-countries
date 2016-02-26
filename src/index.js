@@ -15,7 +15,6 @@ module.exports = {
         for (i in capitals) {
             if (capital === capitals[i]) {
                 return this.getCountryByCode(i);
-                break;
             }
         }
     },
@@ -23,7 +22,6 @@ module.exports = {
         for (i in phones) {
             if (phoneCode === phones[i]) {
                 return this.getCountryByCode(i);
-                break;
             }
         }
     },
@@ -32,7 +30,6 @@ module.exports = {
         for (i in countries) {
             if (country === countries[i]) {
                 return i;
-                break;
             }
         }
     },

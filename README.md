@@ -92,7 +92,7 @@ Example:
 ```js
 var allCountries = require('all-countries');
 
-console.log(allCountries.getCountryCodes; // [ '...']
+console.log(allCountries.getCountryCodes); // [ '...']
 ```
 
 

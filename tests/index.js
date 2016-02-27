@@ -14,6 +14,23 @@ describe('all-countries', function () {
         });
     });
 
+    describe('getCountryByCode', function () {
+        it('should not throw an error with right params', function (){
+            expect(function () { allCountries.getCountryByCode('US'); }).to.not.throw();
+        });
+
+        // it('should be a string', function (){
+        //     expect(function () { allCountries.getCountryByCode('US'); }).to.satisfy(isString);
+        //     // expect(function () { allCountries.getCountryByCode("anything else") }).to.throw("stop js execution");
+        //
+        //     // expect(allCountries.getCountryByCode).to.satisfy(isString);
+        //     //
+        //     function isString(item) {
+        //         return typeof item === 'string';
+        //     }
+        // })
+    });
+
     describe('getCountryCodes', function () {
         it('should be an array of strings', function (){
             expect(allCountries.getCountryCodes).to.satisfy(isArrayOfStrings);

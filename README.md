@@ -1,4 +1,7 @@
 # all-countries
+
+[![Build Status](https://travis-ci.org/preterk/all-countries.svg?branch=master)](https://travis-ci.org/preterk/all-countries)
+
 > An API for getting info about countries
 
 You may install this package with this command:

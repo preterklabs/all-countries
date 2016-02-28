@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "mocha tests/index.js  -w "
+    "test": "mocha tests/index.js  -w ",
+    "testonce": "mocha tests/index.js"
   },
   "repository": {
     "type": "git",
